@@ -1,0 +1,13 @@
+body{
+    margin: 25px 0px 0px 0px !important;
+    padding: 0;
+    background-image: url("../images/wov.png");
+}
+
+h1{
+    text-align: center;
+}
+
+.game{
+    color: white !important;
+}

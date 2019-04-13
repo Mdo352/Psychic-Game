@@ -15,14 +15,29 @@
     </head>
     
     <body>
-        
         <h1>Psychic Game</h1>
 
-        <p>Wins: <span id="win">0</span></p>
-        <p>losses: <span id="lose">0</span></p>
-        <p>Guesses Left: <span id="lives">9</span></p>
-
-        <p>so far you've guessed: <span id="misses"></span></p>
+        <div class="container">
+            <!-- <div class="row"> -->
+                <div class="jumbotron bg-secondary col-md-12 jumbotron-fluid">
+                    <div class="container game">
+                        <h5 class="display-5">Voodo Mamma JuJu, the infamous witch doctor of the Savannah swamps, has challenged you to guess what number she is thinking. You have 9 chances to guess it correctly. Play If You Dare...GOOD LUCK</h5>
+                        <div class="row">    
+                            <div class="card-body col-md-6">
+                                <p>Wins: <span id="win">0</span></p>
+                                <p>losses: <span id="lose">0</span></p>
+                                <p>Guesses Left: <span id="lives">9</span></p>
+                                <p>So far you've guessed: <span id="misses"></span></p>
+                            </div>
+                            <div class="card-body col-md-3">
+                                <!-- <img src="./assets/images/juju.png"> -->
+                                <img src="./assets/images/juju.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
     <script type="text/javascript" src="./assets/javascript/game.js"></script>
     </body>
