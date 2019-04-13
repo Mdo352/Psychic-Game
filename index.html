@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-
+        <link href="https://fonts.googleapis.com/css?family=Acme|Anton|Francois+One" rel="stylesheet">
         
     </head>
     
@@ -21,18 +21,26 @@
             <!-- <div class="row"> -->
                 <div class="jumbotron bg-secondary col-md-12 jumbotron-fluid">
                     <div class="container game">
-                        <h5 class="display-5">Voodo Mamma JuJu, the infamous witch doctor of the Savannah swamps, has challenged you to guess what number she is thinking. You have 9 chances to guess it correctly. Play If You Dare...GOOD LUCK</h5>
-                        <div class="row">    
-                            <div class="card-body col-md-6">
-                                <p>Wins: <span id="win">0</span></p>
-                                <p>losses: <span id="lose">0</span></p>
-                                <p>Guesses Left: <span id="lives">9</span></p>
-                                <p>So far you've guessed: <span id="misses"></span></p>
+                        <h5 class="display-5" style="max-width: 900px;">Voodo Mamma JuJu, the infamous witch doctor of the Savannah swamps, has challenged you to guess what number she is thinking. You have 9 chances to guess it correctly. Play If You Dare...GOOD LUCK</h5>
+                        <div class="row">
+                            <div class="container" id="contentContainer">
+                            <div class="card mb-12" >
+                                <div class="row no-gutters">
+                                    <div class="col-md-4 bg-secondary">
+                                        <img src="./assets/images/juju.png" alt="Voodoo Mama Juju" id="juju">
+                                        <audio id="laugh" src="./assets/audio/evil-laugh.mp3"></audio>
+                                    </div>
+                                    <div class="col-md-8 bg-secondary">
+                                        <div class="card-body">
+                                            <p>Wins: <span id="win">0</span></p>
+                                            <p>losses: <span id="lose">0</span></p>
+                                            <p>Guesses Left: <span id="lives">9</span></p>
+                                            <p>So far you've guessed: <span id="misses"></span></p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-body col-md-3">
-                                <!-- <img src="./assets/images/juju.png"> -->
-                                <img src="./assets/images/juju.png">
-                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
